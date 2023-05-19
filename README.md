@@ -2,16 +2,16 @@
 
 ## 准备工作
 提交的代码包主目录文件构成如下：
-> --config
-> --detect
-> --YOLOv3
-> --YOLOv5
-> --YOLOv5-Lite
-> --data_process.py
-> --K_means.py
-> --README.md
-> --prepare.sh
-> --requirements.txt
+> --config  
+> --detect  
+> --YOLOv3  
+> --YOLOv5  
+> --YOLOv5-Lite  
+> --data_process.py  
+> --K_means.py  
+> --README.md  
+> --prepare.sh  
+> --requirements.txt  
 
 #### 运行环境
 1. 系统版本：
