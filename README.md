@@ -31,6 +31,13 @@ conda activate PCB_env
 pip install -r requirements.txt
 ```
 
+4. wandb准备(可选)
+```
+pip install wandb==0.15.0
+```
+本项目可以进行可视化监测，可以进行wandb准备.
+  1. 进入<https://wandb.ai/>，登录/创建帐号，复制自己账号的API key。
+  2. 在服务器终端输入```wandb login```，粘贴API key。
 
 #### 数据集下载
 从<https://cloud.tsinghua.edu.cn/d/7335cda05c364dffadcf/>下载PR_AIVS.zip到主目录下。运行以下指令。
