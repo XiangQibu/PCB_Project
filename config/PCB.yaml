@@ -1,0 +1,21 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./data/train.txt  #
+val: ./data/val.txt  #
+test: ./data/test.txt
+
+# number of classes
+nc: 12
+
+# class names
+names: ['short',
+ 'island',
+ 'protrusion',
+ 'nick',
+ 'pinhole',
+ 'copper',
+ 'open',
+ 'drill_break',
+ 'drill_nick_in',
+ 'pad',
+ 'drill_protru_out',
+ 'drill_nick_out']
