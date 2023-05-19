@@ -26,6 +26,7 @@ conda 4.10.3
 
 3. 虚拟环境创建
 ```
+cd PCB_Project
 conda create --name PCB_env python=3.6.13
 conda activate PCB_env
 pip install -r requirements.txt
@@ -40,7 +41,7 @@ pip install wandb==0.15.0
   2. 在服务器终端输入```wandb login```，粘贴API key。
 
 #### 数据集下载
-从<https://cloud.tsinghua.edu.cn/d/7335cda05c364dffadcf/>下载PR_AIVS.zip到主目录下。运行以下指令。
+从<https://cloud.tsinghua.edu.cn/d/7335cda05c364dffadcf/>下载PR_AIVS.zip到主目录./PCB_Project下。运行以下指令。
 
 ```
 unzip PR_AIVS.zip
