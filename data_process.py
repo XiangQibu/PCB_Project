@@ -152,6 +152,8 @@ if __name__ == '__main__':
     print([*classes_dic])
     print('processed_json_num:', len(json_list_processed))
     classes_processed = [*classes_dic]
+    classes_processed.sort()
+    print(classes_processed)
 
     figure_id_write(json_list_processed)
     label_write(classes_processed)
